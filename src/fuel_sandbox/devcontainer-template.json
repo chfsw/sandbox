@@ -1,0 +1,17 @@
+{
+    "id": "fuel_sandbox",
+    "version": "1.0.0",
+    "name": "Fuel Sandbox",
+    "description": "Secure, firewalled Node.js environment for Claude Code",
+    "documentationURL": "https://github.com/goodjobandrew/devcontainer-templates/tree/main/src/fuel-sandbox",
+    "options": {
+        "CLAUDE_CODE_VERSION": {
+            "type": "string",
+            "description": "Version of @anthropic-ai/claude-code to install",
+            "default": "latest"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
