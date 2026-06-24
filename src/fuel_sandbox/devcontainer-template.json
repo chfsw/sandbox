@@ -2,16 +2,26 @@
     "id": "fuel_sandbox",
     "version": "1.0.0",
     "name": "Fuel Sandbox",
-    "description": "Secure, firewalled Node.js environment for Claude Code",
-    "documentationURL": "https://github.com/goodjobandrew/devcontainer-templates/tree/main/src/fuel-sandbox",
+    "description": "Secure, firewalled Node.js Dev Container for Claude Code with AWS CLI and sandboxed outbound access",
+    "documentationURL": "https://github.com/chfsw/sandbox/tree/main/src/fuel-sandbox",
     "options": {
         "CLAUDE_CODE_VERSION": {
             "type": "string",
             "description": "Version of @anthropic-ai/claude-code to install",
             "default": "latest"
+        },
+        "GIT_DELTA_VERSION": {
+            "type": "string",
+            "description": "Version of git-delta to install",
+            "default": "0.18.2"
+        },
+        "ZSH_IN_DOCKER_VERSION": {
+            "type": "string",
+            "description": "Version of zsh-in-docker to install",
+            "default": "1.2.0"
         }
     },
     "platforms": [
-        "Any"
+        "Linux"
     ]
 }
